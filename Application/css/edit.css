@@ -1,0 +1,68 @@
+
+#edit-main-container{
+	margin-top: 5%;
+	background-image: url(../../images/login-pattern.png);
+	text-align: center;
+	padding: 20px;
+}
+
+#edit-table{
+	margin: auto;
+}
+
+#edit-table tr td b{
+	font-size: 20px;
+}
+
+
+#edit-table tr td{
+	margin: 10px;
+	padding: 10px;
+}
+
+#edit-table tr td input{
+	font-family: ROBOTO;
+	color: red;
+	font-size: 25px;
+	background: none;
+	outline: none;
+	border:none;
+	padding: 10px;
+	text-align: center;
+	width: 400px;
+}
+
+#search-map{
+	width: 520px;
+}
+
+#edit-submit-button{
+	padding: 10px;
+	margin: auto;
+	width: 100px;
+	background: #439431;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+#edit-submit-button:hover {
+	cursor: pointer;
+}
+
+#overlay{
+	width: 660px;
+	height: 400px;
+	pointer-events: none;
+}
+
+#address{
+	background: transparent;
+	resize: none;
+	border: none;
+	outline: none;
+	color: red;
+	font-family: ROBOTO;
+	font-size: 20px;
+	padding: 10px;
+}

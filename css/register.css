@@ -1,0 +1,38 @@
+#register-newuser{
+	margin-top: 10%;
+	background-image: url(../images/login-pattern.png);
+	text-align: center;
+	padding: 20px;
+}
+
+#register-table{
+	margin: auto;
+}
+
+#register-table tr td{
+	margin: 10px;
+	padding: 10px;
+}
+
+#register-table tr td b{
+	font-size: 20px;
+}
+
+#register-submit-button{
+	padding: 10px;
+	margin: auto;
+	width: 100px;
+	background: #439431;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+#register-submit-button:hover {
+	cursor: pointer;
+}
+
+
+.highlight{
+	color: red;
+}

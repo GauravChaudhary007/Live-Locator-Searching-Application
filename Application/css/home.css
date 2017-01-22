@@ -1,0 +1,68 @@
+@font-face {
+    font-family: ROBOTO;
+    src: url(../../fonts/Roboto-Light.ttf);
+}
+
+body{
+	font-family: ROBOTO;
+}
+
+#home-main-container{
+	margin-top: 10%;
+	background-image: url(../../images/login-pattern.png);
+	text-align: center;
+	padding: 20px;
+}
+
+#search-bar-table{
+	margin: auto;
+}
+
+#search-bar-table tr td b{
+	font-size: 20px;
+}
+
+
+#search-bar-table tr td{
+	margin: 10px;
+	padding: 10px;
+}
+
+.highlight{
+	color: red;
+}
+
+#search-result{
+	text-align: center;
+}
+
+.search-item{
+	float: left;
+	width: 20%;
+	background-image: url(../../images/login-pattern.png);
+	margin: 10px;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+a{
+	margin: 0px;
+	text-decoration: none;
+}
+
+.search-item h2{
+	margin: 0;
+	color: black;
+}
+
+.search-item:hover{
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+}
+
+.notfound{
+	font-size: 20px;
+	color: red;
+	text-align: center;
+}

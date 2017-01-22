@@ -1,0 +1,52 @@
+#login-page-container{
+	margin-top: 10%;
+	background-image: url(../images/login-pattern.png);
+	text-align: center;
+	padding: 20px;
+}
+
+#login-table{
+	margin: auto;
+}
+
+#login-table tr td{
+	margin: 10px;
+	padding: 10px;
+}
+
+#login-table tr td b{
+	font-size: 20px;
+}
+
+#login-submit-button{
+	padding: 10px;
+	margin: auto;
+	width: 100px;
+	background: #439431;
+	color: white;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+#login-submit-button:hover {
+	cursor: pointer;
+}
+
+#login-newuser{
+	padding: 3px;
+	font-size: 15px;
+	font-family: ROBOTO;
+	color: blue;
+	text-decoration: none;
+	-webkit-transition:all 0.3s;
+}
+
+#login-newuser:hover{
+	padding: 3px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 2px #888888;
+}
+
+.highlight{
+	color: red;
+}
